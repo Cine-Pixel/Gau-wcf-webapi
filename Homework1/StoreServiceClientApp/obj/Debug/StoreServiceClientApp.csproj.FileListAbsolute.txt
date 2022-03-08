@@ -1,0 +1,11 @@
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\bin\Debug\StoreServiceClientApp.exe.config
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\bin\Debug\StoreServiceClientApp.exe
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\bin\Debug\StoreServiceClientApp.pdb
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\obj\Debug\StoreServiceClientApp.MainForm.resources
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\obj\Debug\StoreServiceClientApp.Properties.Resources.resources
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\obj\Debug\StoreServiceClientApp.csproj.GenerateResource.cache
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\obj\Debug\StoreServiceClientApp.csproj.CoreCompileInputs.cache
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\obj\Debug\StoreServiceClientApp.exe
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\obj\Debug\StoreServiceClientApp.pdb
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\obj\Debug\StoreServiceClientApp.csproj.AssemblyReference.cache
+C:\Users\ikaum\source\repos\Homework1\StoreServiceClientApp\obj\Debug\StoreServiceClientApp.ProductForm.resources
