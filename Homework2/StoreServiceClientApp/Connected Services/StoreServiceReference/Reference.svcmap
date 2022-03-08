@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cee55d88-4e4a-4653-b7eb-e8104d336cd4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8090/StoreService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StoreService.wsdl" MetadataType="Wsdl" ID="a03b7cab-83c6-4cac-96db-51714360b894" SourceId="1" SourceUrl="http://localhost:8090/StoreService?wsdl" />
+    <MetadataFile FileName="StoreService.disco" MetadataType="Disco" ID="bf5963b3-059c-40aa-84ce-2e1e9b2ac1e5" SourceId="1" SourceUrl="http://localhost:8090/StoreService?disco" />
+    <MetadataFile FileName="StoreService.xsd" MetadataType="Schema" ID="d3cac082-f00a-4be2-8c63-6488c8f3dacd" SourceId="1" SourceUrl="http://localhost:8090/StoreService?xsd=xsd2" />
+    <MetadataFile FileName="StoreService1.xsd" MetadataType="Schema" ID="20814fc1-d9ff-41de-9812-444ddfbbbedb" SourceId="1" SourceUrl="http://localhost:8090/StoreService?xsd=xsd1" />
+    <MetadataFile FileName="StoreService2.xsd" MetadataType="Schema" ID="cea78ef9-789d-4cea-9069-69f228a32b70" SourceId="1" SourceUrl="http://localhost:8090/StoreService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
