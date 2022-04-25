@@ -10,19 +10,6 @@ using StoreService.EF;
 namespace StoreService {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
     public class StoreService : IStoreService {
-        public List<AppData.Category> GetCategories() {
-            using (StoreModel db = new StoreModel()) {
-                return db.Categories.Select(c => new AppData.Category {
-                    Id = c.Id,
-                    CategoryName = c.CategoryName
-                }).ToList();
-            }
-        }
-
-        public AppData.Category GetCategoryById(int id) {
-            throw new NotImplementedException();
-        }
-
         public AppData.Product GetProductById(int id) {
             using(StoreModel db = new StoreModel()) {
                 return db.Products.Where(p => p.Id == id)
@@ -82,6 +69,19 @@ namespace StoreService {
             } catch {
                 return false;
             }
+        }
+        
+        public List<AppData.Category> GetCategories() {
+            using (StoreModel db = new StoreModel()) {
+                return db.Categories.Select(c => new AppData.Category {
+                    Id = c.Id,
+                    CategoryName = c.CategoryName
+                }).ToList();
+            }
+        }
+
+        public AppData.Category GetCategoryById(int id) {
+            throw new NotImplementedException();
         }
     }
 }
